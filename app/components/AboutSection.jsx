@@ -24,7 +24,7 @@ const AboutSection = () => {
         <div>
             <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
             <p className="text-base md:text-lg">
-            Hi, I'm Oliver Bartolata, a Full Stack Developer skilled in JavaScript, React, Node.js, Next.js, HTML, CSS, Python, C#, and Git. I build dynamic and scalable web applications with a focus on clean code and user-friendly design. Let's connect and create something amazing together!
+            Hi, I'm Oliver("Kali") Bartolata, a Full Stack Developer skilled in JavaScript, React, Node.js, Next.js, HTML, CSS, Python, C#, and Git. I build dynamic and scalable web applications with a focus on clean code and user-friendly design. Let's connect and create something amazing together!
             </p>
             <div className="flex flex-row justify-start mt-8">
             <TabButton
