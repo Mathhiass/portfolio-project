@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <section>
         <div className=" grid grid-cols-1 col-span-2 sm:grid-cols-12">
-            <div className="cols-span-12 place-self-center text-center sm:text-left ">
+            <div className="cols-span-8 place-self-center text-center sm:text-left ">
                 <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 "> 
                     Hello, I'm {" "}
@@ -42,7 +42,7 @@ const HeroSection = () => {
 </button>
             </div>
             </div>
-            <div className="col-span-8 place-self-center mt-4 lg:mt-0">
+            <div className="col-span-5 place-self-center mt-4 lg:mt-0">
                 <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] relative">
                 <Image
                 src="/images/dev.jpg"
