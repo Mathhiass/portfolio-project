@@ -49,7 +49,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Hi, I&apos;m Oliver Bartolata, a Front-end Developer skilled in JavaScript, React, Node.js, Next.js, HTML, CSS, Python, C#, and Git. I build dynamic and scalable web applications with a focus on clean code and user-friendly design. Let's connect and create something amazing together!
+          Hi, I&apos;m Oliver Bartolata, a Front-end Developer skilled in JavaScript, React, Node.js, Next.js, HTML, CSS, Python, C#, and Git. I build dynamic and scalable web applications with a focus on clean code and user-friendly design. Let&apos;s connect and create something amazing together!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
