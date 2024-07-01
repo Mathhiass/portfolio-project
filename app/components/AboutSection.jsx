@@ -18,6 +18,7 @@ const TAB_DATA = [
         <li>Python</li>
         <li>C#</li>
         <li>Git</li>
+        <li>Github</li>
       </ul>
     ),
   },
