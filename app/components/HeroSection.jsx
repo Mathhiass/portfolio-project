@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
   return (
-    <section className="ld:py-16">
+    <section className="lg:py-16">
       <div className=" grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-6 self-center text-center sm:text-left ">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
@@ -18,13 +18,14 @@ const HeroSection = () => {
               wrapper="span"
               speed={50}
               repeat={Infinity}
+              className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg;text-xl w-full">
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl w-full">
             Your typical Developer Exploring where I want to go.
           </p>
           <div>
-            <button className="px-7 py-4 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-pink-500 bg-white hover:bg-slate-20 text-white">
+            <button className="px-7 py-4 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-pink-500 hover:bg-slate-200 text-white">
               Hire Me
             </button>
             <a

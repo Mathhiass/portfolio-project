@@ -7,12 +7,12 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "",
-    description: "",
-    image: "",
+    title: "Harmoniq Player",
+    description: "A modern, high-fidelity music web player featuring dark-mode aesthetic, sleek glassmorphic navigation, audio control interfaces, and playlist management.",
+    image: "/images/harmoniq-player.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Mathhiass/Music-Player",
+    previewUrl: "https://harmoniqplayer.vercel.app/player",
   },
 ];
 
