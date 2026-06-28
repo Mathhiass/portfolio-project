@@ -7,9 +7,11 @@ import Image from "next/image";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setErrorMessage("");
     const data = {
       email: e.target.email.value,
       subject: e.target.subject.value,
@@ -30,12 +32,19 @@ const EmailSection = () => {
       body: JSONdata,
     };
 
-    const response = await fetch(endpoint, options);
-    const resData = await response.json();
+    try {
+      const response = await fetch(endpoint, options);
+      const resData = await response.json();
 
-    if (response.status === 200) {
-      console.log("Message sent.");
-      setEmailSubmitted(true);
+      if (response.status === 200 && !resData.error) {
+        console.log("Message sent.");
+        setEmailSubmitted(true);
+      } else {
+        setErrorMessage(resData.error || "Failed to send message. Please check server configuration.");
+      }
+    } catch (err) {
+      console.error("Error submitting form:", err);
+      setErrorMessage("An unexpected error occurred. Please try again later.");
     }
   };
 
@@ -123,6 +132,11 @@ const EmailSection = () => {
             >
               Send Message
             </button>
+            {errorMessage && (
+              <p className="text-red-500 text-sm mt-2">
+                {errorMessage}
+              </p>
+            )}
           </form>
         )}
       </div>
