@@ -14,6 +14,15 @@ const projectsData = [
     gitUrl: "https://github.com/Mathhiass/Music-Player",
     previewUrl: "https://harmoniqplayer.vercel.app/player",
   },
+  {
+    id: 2,
+    title: "NovaTop Up",
+    description: "A game currency top-up platform for the Philippines, offering instant delivery for Valorant, Mobile Legends, Roblox, and more — with secure payments via GCash and Maya.",
+    image: "/images/novatopup.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Mathhiass/novatopup",
+    previewUrl: "https://novatopupph.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
