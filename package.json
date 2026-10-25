@@ -1,28 +1,32 @@
 {
-  "name": "portfolio-project",
-  "version": "0.1.0",
+  "name": "kali-dev-portfolio",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/smoke.mjs"
   },
   "dependencies": {
-    "@heroicons/react": "^2.1.3",
-    "@svgr/webpack": "^8.1.0",
-    "framer-motion": "^11.2.5",
-    "next": "14.2.3",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-type-animation": "^3.2.0",
-    "resend": "^3.2.0"
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "lucide-react": "^0.468.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.5.2",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "typescript": "^5.9.0",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4.1",
+    "@tailwindcss/postcss": "^4.1",
+    "eslint": "^9",
+    "eslint-config-next": "^16.0.0"
+  },
+  "engines": {
+    "node": ">=22.13.0"
   }
 }
