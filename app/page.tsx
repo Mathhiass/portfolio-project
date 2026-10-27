@@ -1,4 +1,5 @@
 import Image from "next/image";
+import novaScreenshot from "@/public/images/nova-storefront.jpg";
 import { ArrowUpRight, ArrowDown, Github, Linkedin } from "lucide-react";
 import { Navigation, WorkLens, RevealMotion } from "@/components/interactions";
 const projects = [
@@ -18,8 +19,8 @@ const projects = [
     category: "Play starts here.",
     description:
       "A Philippine game-currency storefront for browsing top-ups for Valorant, Mobile Legends, Roblox, and more.",
-    image: "/images/nova.png",
-    alt: "NovaTop Up game storefront from Oliver’s original portfolio",
+    image: novaScreenshot,
+    alt: "NovaTop Up’s redesigned homepage and game catalog",
     url: "https://novatopupph.vercel.app/",
     repo: null,
     tags: ["Storefront", "Game top-ups", "Web project"],

@@ -60,3 +60,11 @@ Revision review: the full name reads as one focal point, the footer is compact, 
 Authenticated GitHub as Mathhiass. Verified repository portfolio-project and its main branch against the existing live Vercel deployment. Retrieved the existing history and preserved .gitattributes and the original favicon. The new commit replaces the old JavaScript App Router pages, components, form endpoint and framework configuration with the verified TypeScript redesign. No force push is needed.
 
 Confirmed the Vercel workspace remains on Hobby. Production configuration will use Node 24.x and the existing kalisnt-portfolio.vercel.app address. Configured the public site origin for the local production build; the ignored environment file contains only that public origin. Cloud publication status is recorded after verification.
+
+## 2026-10-27 — refresh NovaTop Up project screenshot
+
+Captured the current public NovaTop Up homepage at https://novatopupph.vercel.app/ using the browser. Replaced the old dark storefront screenshot with public/images/nova-storefront.jpg, showing the new light design, blue accents and game catalog. The screenshot preserves the actual design-preview banner.
+
+Updated app/page.tsx to import the new screenshot as a static Next.js image and describe it accurately. Static importing produces a content-hashed URL so visitors receive the new capture rather than a cached copy of the original. Removed the obsolete nova.png and updated the existing smoke check to verify the new JPEG. No page layout, project summary or features changed.
+
+Validation before publication: lint, TypeScript and production build passed. The final capture uses the portfolio’s desktop image proportions so the navigation and hero remain framed correctly. Live image and responsive checks follow the Vercel deployment.

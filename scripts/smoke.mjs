@@ -24,7 +24,7 @@ assert.ok(
 for (const path of [
   "/images/oliver.jpg",
   "/images/harmoniq.png",
-  "/images/nova.png",
+  "/images/nova-storefront.jpg",
   "/Oliver_Bartolata_Resume.pdf",
   "/opengraph-image",
   "/robots.txt",
