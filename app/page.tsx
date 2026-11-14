@@ -1,5 +1,6 @@
 import Image from "next/image";
 import novaScreenshot from "@/public/images/nova-storefront.jpg";
+import supportFlowScreenshot from "@/public/images/supportflow-dashboard.jpg";
 import { ArrowUpRight, ArrowDown, Github, Linkedin } from "lucide-react";
 import { Navigation, WorkLens, RevealMotion } from "@/components/interactions";
 const projects = [
@@ -24,6 +25,18 @@ const projects = [
     url: "https://novatopupph.vercel.app/",
     repo: null,
     tags: ["Storefront", "Game top-ups", "Web project"],
+  },
+  {
+    id: "supportflow",
+    name: "SupportFlow",
+    category: "Customer support workspace",
+    description:
+      "A help desk where teams can assign support tickets, reply to customers, and track response deadlines. It also includes a customer portal and a knowledge base.",
+    image: supportFlowScreenshot,
+    alt: "SupportFlow dashboard with sample tickets, ticket statuses, and response metrics",
+    url: "https://supportflow-lyart-ten.vercel.app/",
+    repo: null,
+    tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma"],
   },
 ];
 export default function Home() {
@@ -79,14 +92,13 @@ export default function Home() {
         <section id="projects" className="section work">
           <div className="section-heading" data-reveal>
             <h2>Selected work</h2>
-            <p>
-              Two different worlds.
-              <br />
-              The same attention to detail.
-            </p>
           </div>
           {projects.map((project, index) => (
-            <article className={`project project-${index}`} key={project.name}>
+            <article
+              id={project.id}
+              className={`project project-${index}`}
+              key={project.name}
+            >
               <a
                 href={project.url}
                 className="project-image"

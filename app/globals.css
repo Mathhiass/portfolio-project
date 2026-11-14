@@ -232,6 +232,7 @@ button:active,
 }
 .project {
   margin-top: 64px;
+  scroll-margin-top: 96px;
 }
 .project-image {
   display: block;
@@ -589,6 +590,9 @@ footer nav {
     aspect-ratio: 1.2;
     object-fit: cover;
     object-position: left top;
+  }
+  #supportflow .project-image img {
+    aspect-ratio: 1.6;
   }
   .image-action {
     right: 12px;

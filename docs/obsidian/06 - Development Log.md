@@ -68,3 +68,7 @@ Captured the current public NovaTop Up homepage at https://novatopupph.vercel.ap
 Updated app/page.tsx to import the new screenshot as a static Next.js image and describe it accurately. Static importing produces a content-hashed URL so visitors receive the new capture rather than a cached copy of the original. Removed the obsolete nova.png and updated the existing smoke check to verify the new JPEG. No page layout, project summary or features changed.
 
 Validation before publication: lint, TypeScript and production build passed. The final capture uses the portfolio’s desktop image proportions so the navigation and hero remain framed correctly. Live image and responsive checks follow the Vercel deployment.
+
+## 2026-11-14 — add SupportFlow to selected work
+
+Added SupportFlow to the selected work section in [[03 - Site Architecture]] with its live app link, ticket workflow summary, and verified technology stack. Captured the dashboard from a local workspace seeded with fictional tickets. The mobile image keeps the full dashboard width so the status panel stays in frame.
