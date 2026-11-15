@@ -72,3 +72,7 @@ Validation before publication: lint, TypeScript and production build passed. The
 ## 2026-11-14 — add SupportFlow to selected work
 
 Added SupportFlow to the selected work section in [[03 - Site Architecture]] with its live app link, ticket workflow summary, and verified technology stack. Captured the dashboard from a local workspace seeded with fictional tickets. The mobile image keeps the full dashboard width so the status panel stays in frame.
+
+## 2026-11-16 — add AniVerse to selected work
+
+Added AniVerse to the selected work section in [[03 - Site Architecture]] with its live app link, catalog and watchlist summary, and a screenshot of the published homepage featuring Moonline. The card preserves the screenshot’s framing across viewport sizes.

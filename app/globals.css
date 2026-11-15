@@ -253,6 +253,9 @@ button:active,
 .project-image:hover img {
   transform: scale(1.025);
 }
+#aniverse .project-image img {
+  aspect-ratio: 16 / 9;
+}
 .project-1 {
   width: 88%;
   margin-left: auto;

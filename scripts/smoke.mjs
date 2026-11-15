@@ -26,6 +26,7 @@ for (const path of [
   "/images/harmoniq.png",
   "/images/nova-storefront.jpg",
   "/images/supportflow-dashboard.jpg",
+  "/images/aniverse-home.jpg",
   "/Oliver_Bartolata_Resume.pdf",
   "/opengraph-image",
   "/robots.txt",

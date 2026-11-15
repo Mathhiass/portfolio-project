@@ -1,4 +1,5 @@
 import Image from "next/image";
+import aniVerseScreenshot from "@/public/images/aniverse-home.jpg";
 import novaScreenshot from "@/public/images/nova-storefront.jpg";
 import supportFlowScreenshot from "@/public/images/supportflow-dashboard.jpg";
 import { ArrowUpRight, ArrowDown, Github, Linkedin } from "lucide-react";
@@ -35,6 +36,18 @@ const projects = [
     image: supportFlowScreenshot,
     alt: "SupportFlow dashboard with sample tickets, ticket statuses, and response metrics",
     url: "https://supportflow-lyart-ten.vercel.app/",
+    repo: null,
+    tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma"],
+  },
+  {
+    id: "aniverse",
+    name: "AniVerse",
+    category: "Anime discovery and watchlists",
+    description:
+      "An anime catalog for exploring new titles, keeping a personal watchlist, and sharing ratings and reviews. It also features Moonline, an original animated demo.",
+    image: aniVerseScreenshot,
+    alt: "AniVerse homepage featuring the Moonline animated demo and trending anime",
+    url: "https://aniverseph.vercel.app/",
     repo: null,
     tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma"],
   },
